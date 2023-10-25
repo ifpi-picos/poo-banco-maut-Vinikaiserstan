@@ -7,7 +7,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         Endereco endereco = new Endereco("Rua ABC", 123, "Bairro X", "Cidade Y", "UF");
-        Cliente cliente = new Cliente("12345678901", "João da Silva", new Date(), endereco);
+        Cliente cliente = new Cliente("12345678901", "Vinicius Neiva", new Date(), endereco);
 
         ContaCorrente contaCorrente = new ContaCorrente(1, 101, 1000.0, cliente, 500.0);
         ContaPoupanca contaPoupanca = new ContaPoupanca(2, 201, 5000.0, cliente, 0.10);
