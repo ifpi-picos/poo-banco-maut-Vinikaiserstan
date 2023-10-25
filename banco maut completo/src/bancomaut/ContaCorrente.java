@@ -16,7 +16,6 @@ public class ContaCorrente extends Conta {
             contaDestino.deposita(valor);
             transferenciasRealizadas++;
             if (transferenciasRealizadas > 2) {
-                // Cobrar taxa de 10% após 2 transferências
                 double taxa = valor * 0.1;
                 saca(taxa);
             }
