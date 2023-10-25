@@ -1,5 +1,6 @@
 package bancomaut;
 import java.util.Date;
+
 public class Transacao {
     private Date data;
     private String tipo;
