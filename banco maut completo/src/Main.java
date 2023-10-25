@@ -6,7 +6,7 @@ import bancomaut.Endereco;
 import java.util.Date;
 public class Main {
     public static void main(String[] args) {
-        Endereco endereco = new Endereco("Rua ABC", 123, "Bairro X", "Cidade Y", "UF");
+        Endereco endereco = new Endereco("Rua ABC", 123, "Bairro A", "Cidade B", "UF");
         Cliente cliente = new Cliente("12345678901", "Vinicius Neiva", new Date(), endereco);
 
         ContaCorrente contaCorrente = new ContaCorrente(1, 101, 1000.0, cliente, 500.0);
