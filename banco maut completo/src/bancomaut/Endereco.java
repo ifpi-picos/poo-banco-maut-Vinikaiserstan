@@ -1,5 +1,4 @@
 package bancomaut;
-
 public class Endereco {
     private String logradouro;
     private int numero;
@@ -13,25 +12,5 @@ public class Endereco {
         this.bairro = bairro;
         this.cidade = cidade;
         this.uf = uf;
-    }
-
-    public String getLogradouro() {
-        return logradouro;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public String getBairro() {
-        return bairro;
-    }
-
-    public String getCidade() {
-        return cidade;
-    }
-
-    public String getUf() {
-        return uf;
     }
 }
