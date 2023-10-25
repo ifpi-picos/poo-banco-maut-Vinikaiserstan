@@ -1,5 +1,6 @@
 package bancomaut;
 import java.util.Date;
+
 public class Cliente {
     private String cpf;
     private String nome;
@@ -13,19 +14,7 @@ public class Cliente {
         this.endereco = endereco;
     }
 
-    public String getCpf() {
-        return cpf;
-    }
-
     public String getNome() {
         return nome;
-    }
-
-    public Date getDataNascimento() {
-        return dataNascimento;
-    }
-
-    public Endereco getEndereco() {
-        return endereco;
     }
 }
